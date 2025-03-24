@@ -1,0 +1,73 @@
+
+.content-main {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    background-color:#0E2039 ;
+    height: 70px;
+}
+
+.logo {
+    margin: 10px;
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.header-titulo {
+    margin: 20px;
+    color: white;
+}
+
+.content-perfil {
+    display: flex;
+    margin-left: 700px;
+    gap: 10px;
+}
+
+.content-padre {
+    margin: 30px;
+}
+
+.content-inputs {
+    margin-top: 30px;
+}
+
+label {
+margin-top: 20px
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+}
+
+.usuarios-asignados {
+    max-width: 200px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    height: 30px ;
+}
+
+.text-usuarios-asignados {
+    font-size: 15px;
+    text-align: center;
+}
+
+.buton-agregar {
+    background-color: greenyellow;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
