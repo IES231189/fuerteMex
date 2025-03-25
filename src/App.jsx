@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Registro from "./Pages/Registro";
 import ManejoUsers from "./Pages/ManejoUsers";
 import Movimientos from "./Pages/Movimientos";
+import AccesosIncorrectos from "./Pages/AccesosIncorrectos";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -14,7 +15,8 @@ function App() {
       {/* <Home /> */}
       {/* <Registro /> */}
       {/* <ManejoUsers /> */}
-      <Movimientos />
+      {/* <Movimientos /> */}
+      <AccesosIncorrectos />
 
       <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
     </Router>
