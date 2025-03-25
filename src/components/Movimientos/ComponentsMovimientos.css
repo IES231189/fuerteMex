@@ -1,0 +1,19 @@
+
+.Content-datos-caja {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.95px 0px;
+    border: none;
+    height: 70px ;
+}
+
+.content-padre-cajas {
+    margin: 20px;
+    width: 800px;
+}
+
+.icon-alert {
+   margin-left: 10px;
+}

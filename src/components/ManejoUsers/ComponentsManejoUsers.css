@@ -64,10 +64,14 @@ input {
 .buton-agregar {
     background-color: greenyellow;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
-    border: none;
+    border-color: aliceblue;
     height: 30px;
     width: 200px;
     margin-top: 20px;
     cursor: pointer;
     color: white;
+}
+
+.titulo-acceso {
+    margin-top: 20px;
 }

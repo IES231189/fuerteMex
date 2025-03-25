@@ -63,7 +63,7 @@ export default function ComponentsManejoUsers() {
               <input type="text" />
             </div>
             <div>
-              <h3>Usuarios Con Acceso</h3>
+              <h3 className="titulo-acceso">Usuarios Con Acceso</h3>
               <div className="usuarios-asignados">
                 <h3 className="text-usuarios-asignados">Carlos Molina</h3>
               </div>
