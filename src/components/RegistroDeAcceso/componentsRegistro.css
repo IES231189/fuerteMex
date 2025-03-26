@@ -3,75 +3,9 @@
     display: flex;
 }
 
-.header-container {
-    display: flex;
-    background-color:#0E2039 ;
-    height: 70px;
-}
-
-.logo {
-    margin: 10px;
-    max-width: 10%;
-    border-radius: 50%;
-}
-
-.header-titulo {
-    margin: 20px;
-    color: white;
-}
-
-.content-perfil {
-    display: flex;
-    margin-left: 700px;
-    gap: 10px;
-}
-
-.icon-email {
-   color: white;
-   margin: 13px;
-}
-
-.icono-perfil {
-    margin: 10px;
-    max-width: 100px;
-    border-radius: 50%;
-}
-
 .titulo-administrador {
     color: white;
     margin-top: 20px;
-}
-
-.navbar {
-    background-color: white;
-    max-width: 200px;
-    height: 545px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-ul {
-    list-style: none;
-    margin-top: 30px;
-}
-
-li {
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    height: 60px;
-    margin-left: 0px;
-    width: 100%;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-li:hover{
-    background-color: #0E2039;
-    color: white;
 }
 
 .titulo-padre {

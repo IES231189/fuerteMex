@@ -7,6 +7,8 @@ import Movimientos from "./Pages/Movimientos";
 import AccesosIncorrectos from "./Pages/AccesosIncorrectos";
 import TodosLosAccesos from "./Pages/TodosLosAccesos";
 import Actividades from "./Pages/Actividades";
+import Header from "./components/ui/Header/Header";
+import BarraMenu from "./components/ui/BarraMenu/BarraMenu";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -21,6 +23,8 @@ function App() {
       {/* <AccesosIncorrectos /> */}
       {/* <TodosLosAccesos /> */}
       <Actividades />
+      {/* <Header /> */}
+      {/* <BarraMenu /> */}
 
       <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
     </Router>

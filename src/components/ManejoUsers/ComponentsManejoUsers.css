@@ -3,29 +3,6 @@
     display: flex;
 }
 
-.header-container {
-    display: flex;
-    background-color:#0E2039 ;
-    height: 70px;
-}
-
-.logo {
-    margin: 10px;
-    max-width: 10%;
-    border-radius: 50%;
-}
-
-.header-titulo {
-    margin: 20px;
-    color: white;
-}
-
-.content-perfil {
-    display: flex;
-    margin-left: 700px;
-    gap: 10px;
-}
-
 .content-padre {
     margin: 30px;
 }

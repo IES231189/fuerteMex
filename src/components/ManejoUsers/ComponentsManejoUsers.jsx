@@ -1,56 +1,15 @@
 import React from "react";
-import Logo from "../../assets/LogoFuerteMex.png";
-import IconoPerfil from "../../assets/IconoPerfil.png";
-import { CgMail } from "react-icons/cg";
-import { Link } from "react-router-dom";
+import Header from "../ui/Header/Header";
+import BarraMenu from "../ui/BarraMenu/BarraMenu";
 import "./ComponentsManejoUsers.css";
 
 export default function ComponentsManejoUsers() {
   return (
     <>
       <main>
-        <header className="header-container">
-          <img src={Logo} alt="Logo de la empresa" className="logo" />
-          <h1 className="header-titulo">FuerteMex</h1>
-          <div className="content-perfil">
-            <CgMail className="icon-email" size={40} />
-            <h2 className="titulo-administrador">Administrador</h2>
-            <img
-              src={IconoPerfil}
-              alt="Logo de la empresa"
-              className="icono-perfil"
-            />
-          </div>
-        </header>
+        <Header />
         <div className="content-main">
-          <nav className="navbar">
-            <ul className="nav-links">
-              <li>
-                <Link to="#">Acceso En Tiempo Real</Link>
-              </li>
-              <li>
-                <Link to="#">Cajas y Usuarios Autorizados</Link>
-              </li>
-              <li>
-                <Link to="#">Usuarios</Link>
-              </li>
-              <li>
-                <Link to="#">Alertas de Proximidad</Link>
-              </li>
-              <li>
-                <Link to="#">Alertas De Intrusion</Link>
-              </li>
-              <li>
-                <Link to="#">Actividad En La Caja</Link>
-              </li>
-              <li>
-                <Link to="#">Historial De Accesos</Link>
-              </li>
-              <li>
-                <Link to="#">Eventos De Apertura y Cierre</Link>
-              </li>
-            </ul>
-          </nav>
+          <BarraMenu />
           <div className="content-padre">
             <h1>Asigne Un Nombre O Identificador Al Producto</h1>
             <div className="content-inputs">
